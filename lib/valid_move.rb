@@ -3,7 +3,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(board, index)
-   if index
+   if index > 0 
+     return true
+   end
+   if index < 8
+     
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
