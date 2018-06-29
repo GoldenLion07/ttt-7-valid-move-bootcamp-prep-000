@@ -3,18 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(board, index)
-   if board[index] == 0 
-     return true
-   end
-   if "#{board[index]} == 5"
-     return true
-   end
-   if "#{board[index]} == 4"
-     return false 
-   end
-   if "#{board[index]} == nil"
-     return false
-   end
+   if index
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
