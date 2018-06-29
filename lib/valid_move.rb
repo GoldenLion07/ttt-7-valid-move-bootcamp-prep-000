@@ -6,10 +6,7 @@ def valid_move?(board, index)
    if index > 0 
      return true
    end
-   if index < 5
-     return true
-   end
-   if index > 5
+   if index > 8
      return false
    end
 end
